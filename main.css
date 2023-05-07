@@ -1,0 +1,169 @@
+
+  body {
+    line-height: 1;
+}
+
+#boddy {
+    background-color: rgb(255, 255, 255);
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header {
+    padding: 0;
+    width: 1360px;
+    position:sticky;
+    height: 81px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    background-color: white;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+}
+
+.header_navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_navbar li {
+    margin-right: 20px;
+}
+
+.header_navbar li {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    color: darkgrey;
+
+}
+
+.header_navbar li:hover {
+    cursor: pointer;
+}
+
+  .carousel-item {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-container2{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .image-container3{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+
+  .image-container4{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+
+  .image-container5{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .image {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+  }
+
+.Popular {
+  display: flex;
+  justify-content: center;
+  width: 1360px;
+  background-color: rgb(253, 253, 253);
+}
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  .description h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .description p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+.bluebackgr{
+  height: 200px;
+  width: 1360px;
+  background-color: rgb(21, 94, 179);
+  
+}
+.center{
+  display: flex;
+  justify-content: center;
+  width: 1360px;
+}
+#backgr{
+ background-color: rgb(34, 66, 102);
+ height: 200px;
+
+}
+
+
