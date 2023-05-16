@@ -1,10 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
-  *
-  {font-family: 'Open Sans', sans-serif;
-  }
-  body {
-    line-height: 1;
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  line-height: 1;
 }
 
 #boddy {
@@ -44,19 +44,12 @@
     padding: 0;
 }
 
-.header_navbar li {
+a {
     margin-right: 20px;
-}
-
-.header_navbar li {
-    list-style: none;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     color: darkgrey;
-
+    text-decoration: none;
 }
 
 .header_navbar li:hover {
