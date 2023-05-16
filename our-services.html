@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .root {
+            background-color: rgb(255, 255, 255);
+            max-width: 1360px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        .logo:hover {
+            cursor: pointer;
+        }
+
+        .header {
+            padding: 0;
+            width: 1360px;
+            position: sticky;
+            height: 81px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 99;
+            background-color: white;
+        }
+
+        .header_container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .header_navbar {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            margin-right: 20px;
+            height: 100%;
+            font-family: 'Raleway', sans-serif;
+            color: darkgrey;
+            text-decoration: none;
+        }
+        
+        .places_container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="root">
+        <header class="header">
+            <a href="./main.html">
+                <img src="./images/la-logo.png" class="logo">
+            </a>
+            <nav class="header_container">
+                <ul class="header_navbar">
+                    <li><a href="./main.html">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="./our-services.html">OUR SERVICES</a></li>
+                    <li><a href="#">TOUR PACKAGE</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="places_container"></div>
+    </div>
+    <script src="./our-services.js"></script>
 </body>
+
 </html>

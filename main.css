@@ -54,10 +54,6 @@ a {
   text-decoration: none;
 }
 
-.header_navbar li:hover {
-  cursor: pointer;
-}
-
 .carousel-item {
   flex-shrink: 0;
   width: 100%;
